@@ -7,21 +7,21 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Jinho Bang
+    tagline: Web Platform Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: zino@chromium.org
+    phone: 010-4363-0075
+    website: zino.dev
+    linkedin:
+    xing:
+    github: romandev
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -79,21 +79,48 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Web Platform Developer
+      time: 2011.01 - Present
+      company: Samsung Electronics, Korea
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        I am **an initial member of [Samsung Internet](https://www.samsung.com/us/support/owners/app/samsung-internet)**
+        team and have been deeply involved in design/architecture as well as
+        feature implementation. Today, Samsung Internet has been one of the top
+        three browsers on mobile platforms around the world, with over one
+        billion(1,000,000,000+) downloads.
+
+        FYI, Samsung Internet is based on **[Chromium/Blink](https://www.chromium.org)**
+        open source project hosted by Google. Thus, I am good at **open source
+        development process** including writing consistent quality code,
+        code review, spliting tasks and testing. In addition, I can proficiently
+        handle languages such as C++, Java, HTML, Javascript, and Python used in
+        the project, and have been understand various technology stacks such as
+        the internal principles of **browser rendering engine**.
+
+        Here are my main projects/achievements in Samsung Internet.
+        - **Samsung Internet for PC (2021 - Present)**
+          - Design the initial architecture
+          - Leading a team of about 10 members technically
+        - **Password Autofill with [SamsungPass](https://www.samsung.com/my/apps/samsung-pass/) (2018 - 2020)**
+          - Design/Implement Samsung Pass, one of the most popular
+            features in Samsung Internet
+          - Improve FormParser to detect password forms
+        - **Web Payments APIs (2017 - 2019)**
+          - Design/Implement Web Payments APIs, one of the hottest web
+            platform features in W3C Web Standards
+          - Integrate SamsungPay in America
+          - Provide additional security by Knox SDP
+        - **ServiceWorker APIs (2016)**
+          - Implement ServiceWorker APIs with [Jungkee Song](https://w3c.github.io/ServiceWorker/),
+            who is creator/editor of the spec
+        - **Improve rendering in Chromium/Blink (2014 - 2015)**
+          - Implement Canvas2D APIs
+          - Improve Canvas2D performance via DisplayList Canvas (with SkPicture)
+          - Improve IRT score (better than Chrome for Android)
+          - Implement performance dashboard and regression detecting tools
+        - **Blink Trunk Project (2013 - 2014)**
+          - Initial works for Samsung Internet for Android
+          - Implement EFLWebView APIs in Tizen
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
